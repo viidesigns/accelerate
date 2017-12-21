@@ -1,0 +1,105 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Your Name!
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+/*Home Page Styles*/
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+
+/*Blog Post Styles*/
+.blog-post {
+  width: 50%;
+  float: left;
+  margin-bottom: 5em;
+}
+
+.blog-post h3 {
+  font-size: 1.5em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Case Studies*/
+.case-study-sidebar {
+  float: left;
+  width: 40%;
+  font-family: Arial;
+  margin-top: 5em;
+}
+
+.case-study-sidebar h2 {
+  font-weight: 500;
+}
+
+.case-study-sidebar h3 {
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.case-study-sidebar h4 {
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 1em;
+  color: #a9a9a9;
+}
+
+.case-study-sidebar p {
+  width: 75%;
+}
+
+.case-study-sidebar a {
+  color: #45ac9d;
+  font-weight: 600;
+}
+
+.case-study-graph-info {
+  float: right;
+  width: 60%;
+}
+
+.mailchimp-case-study {
+  margin-bottom: 2em;
+  margin-top: 5em;
+}
+
+.mailchimp-support {
+  margin-bottom: 2em;
+}
+
+.mailchimp-blog {
+  margin-bottom: 5em;
+}
